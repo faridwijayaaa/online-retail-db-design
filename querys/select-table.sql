@@ -27,7 +27,7 @@ SELECT
 FROM Orders
     JOIN User ON Orders.user_id = User.id
     JOIN Product ON Orders.product_id = Product.id
-WHERE User.name = "Jalil";
+-- WHERE User.name = "Jalil";
 
 -- TABLE PRODUCT
 
